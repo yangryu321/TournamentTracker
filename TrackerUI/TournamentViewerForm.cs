@@ -291,6 +291,10 @@ namespace TrackerUI
                     
                     if (TeamOneScoreText.Text.Length != 0 || TeamTwoScoreText.Text.Length != 0)
                     {
+                        //reset the score field to ""
+                        TeamOneScoreText.Text = "";
+                        TeamTwoScoreText.Text = "";
+
                         MessageBox.Show("No match for this round, please dont input anything for score");
                         CurrentMatchup.Winner = CurrentMatchup.Entries[0].TeamCompeting;
                        
