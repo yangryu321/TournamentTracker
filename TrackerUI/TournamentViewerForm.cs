@@ -218,7 +218,10 @@ namespace TrackerUI
             }
 
             CurrentRound = new List<MatchupModel>();
-            
+
+            //reset the score field to ""
+            TeamOneScoreText.Text = "";
+            TeamTwoScoreText.Text = "";
 
         }
 
