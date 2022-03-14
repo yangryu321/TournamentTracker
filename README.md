@@ -3,7 +3,7 @@
   Two databases means there is two ways of storing data in one DataAccess Project. 
   
   Things I'm still working on this project:
-  -Refactory
+  -Refactoring
   
   Things I'm planning to add on this project:
   -Maybe add another data access for practicing purpose, for example, MongoDB.
