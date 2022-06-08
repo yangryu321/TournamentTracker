@@ -35,7 +35,7 @@ Your daily tool of hosting tournaments :joy:
 Tools I used to build the app: </br>
 *Framework* : .NetFramework 4.7.2. </br>
 *Frontend* : Winform.<br/>
-*Database* : Microsoft SQL Server. <br/>
+*Database* : Microsoft SQL Server, local textfiles. <br/>
 *Other tools: Dapper, etc.*
 
 
