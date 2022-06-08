@@ -1,52 +1,44 @@
 # TournamentTracker
-  TournamentTracker project is a .Net Framework project with WinForm(UI) and SQL and textfiles(local database).
-  Two databases means there is two ways of storing data in one DataAccess Project. 
+Your daily tool of hosting tournaments :joy:
   
-  Things I'm still working on this project:
-  -Refactoring
-  
-  Things I'm planning to add on this project:
-  -Maybe add another data access for practicing purpose, for example, MongoDB.
-  
-  
-  
-  
-  Things I like about this project:
-  
-  
-  
-  Things I dont really like about this project:
-  
-
-# Street Fighter VI Wishlist Website
-A wishlist website for the upcoming (2022?:expressionless:) video game Street Fighter VI.
-
-<br>
-<br>
-
 
 
 <br>
 <br>
 
+<img width="602" alt="Tournament_ViewerUI" src="https://user-images.githubusercontent.com/28534915/172692479-ff584644-4366-423d-8d1e-d835cc628461.PNG">
+
 
 <br>
 <br>
+
+<img width="661" alt="Tournament_CreateTournamentUI" src="https://user-images.githubusercontent.com/28534915/172692528-efb3c58e-ed05-42ac-b1fe-a4154a0bd88b.PNG">
+
+<br>
+<br>
+
+<img width="732" alt="Tournament_CreateTeamAndMemberUI" src="https://user-images.githubusercontent.com/28534915/172692539-780fe41e-a1ce-44ad-a7de-9e6ea59cfd40.PNG">
+
+<br>
+<br>
+<img width="434" alt="Tournament_CreatePrizeUI" src="https://user-images.githubusercontent.com/28534915/172692554-75c10ab1-7672-409d-b3c6-8470a6856d89.PNG">
+<br>
+<br>
+<img width="623" alt="Tournament_Viewer" src="https://user-images.githubusercontent.com/28534915/172692571-6f29b4ad-6279-47f5-8b74-16b5131c6ff0.PNG">
 
 
 <br>
 <br>
 
 
-## About the website
-Tools I used to build the website: </br>
-*Full-stack framework* : asp.net core Blazor server side. </br>
-*Data-base* : MongoDB Atlas. <br/>
-*Hosting* : Azure. <br />
-*Authentication* : Azure AD B2C <br/>
-*Other tools* : Bootstrap 4, etc. <br />
-*Readme* : This website is a fully functional wishlist website that has 3 access priorities: tourist, member, admin. <br />
-Please sign up or email me for admin access to fully explore the infrastructure of this website. :hear_no_evil: 
+## About the application
+Tools I used to build the app: </br>
+*Framework* : .NetFramework 4.7.2. </br>
+*Frontend* : Winform.<br/>
+*Database* : Microsoft SQL Server. <br/>
+*Other tools: Dapper, etc.*
+
+
 
 <br>
 <br>
@@ -97,6 +89,21 @@ The mobile version is still in development.)*
 ## Credit
 Big shout out to **IAmTimCorey** for sharing his knowledge,  <a href= "https://www.youtube.com/user/IAmTimCorey">check out his Youtube channel</a>.
 
+## Things I'm still working on this project:
+-Refactoring
+  
+Things I'm planning to add on this project:
+-Maybe add another data access for practicing purpose, for example, MongoDB.
+  
+  
+  
+Things I like about this project:
+  
+  
+Things I dont really like about this project:
+  
 
+# Street Fighter VI Wishlist Website
+A wishlist website for the upcoming (2022?:expressionless:) video game Street Fighter VI.
 
 
