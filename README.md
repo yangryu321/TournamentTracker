@@ -44,47 +44,47 @@ Tools I used to build the app: </br>
 <br>
 
 ## What I learned 
-### *About Blazor and asp.net core* : 
-Since Blazor is relatively new compared to MVC and Razor page, it has some really handy<br/>
-features for modern web development. What I really like about blazor is first the routing. It is very clear and straightforward. <br /> 
-I also like how you can use razor components where you can inject classes at the top of the pape to simplify coding process. <br />
-Having frontend code and c# code on the same page makes it easier for me to debug ( Of course you can put the c# code in another file to make it
-look like the razor page infrastructure). MVC and razor page make you understand better about how asp.net core works, but when it comes to overall development
-experience I like Blazor the best. Combining it with Azure AD B2C makes the whole development process faster and easier. </br >
+### *About .NetFramework* : 
+First time using Microsoft .Net and it was pretty fun. It feels very different from the tools I have used before, like Unity. </br>
+At that time I was building this project following a tutorial online, I wasn't very familiar with some concepts in .Net  </br>
+, like dependency injection and etc. So you will see me using a public static variable plus a enum and switch to swap  between the two</br>
+databases. With the fundametals of c#, it is actually not that hard to get started with .Net. The file structure is clear and not  </br>
+overwhelming. It is because of this project that I really started to get interested in .Net development and decided to learn more about  </br>
+it. 
 
-### *About database*  : 
-It is my first time using NoSQL database. I really like it even though I didn't take advantage of EF core's </br >
-features like scaffolding and  migration. It feels more like using Dapper with SQL to me and I like Dapper a lot. The overall use </br >
-of mongoDB is easier than using SQL. You dont have to worry about duplicated data as long as it's not too absurd. I think I'll use MongoDB more
-from now on if I build something from scratch and not want to worry too much of it being rational or not.<br/>
 
-## *About Auth* :
-First time using a third-party authentication system. It is easier to configure than using the built-in authentication system </br >
-(Even though the set up part on Azure is kinda messy). The coding part is especially easier than implementing JWT from scratch by myself. </br >
-The only thing I think users wouldn't like about it is the system UI. It looks very Microsoft and not custom enough even though you can change </br >
-the icon and background picture. But overall it's really handy if you build a project from scratch and want something easier and faster. </br >You dont have to worry too much about authorization and security as it is being handled by Microsoft.
+### *About database and ORM*  : 
+
+First time using SQL with an ORM. Although I learned SQL long time ago back in school, I didn't actually build a project with it.  </br>
+So this is very first time using database plus a ORM. Speaking of Dapper, I knew there is this other ORM called Ef core and it was pretty </br>
+popular, but I still used ORM because the tutorial did so :rofl:. So now after I learned ef core too, I'm thinking maybe I should add another</br>
+implementation of the dataaccess with EF core.
+
+### *About Winform* :
+
+I had used Winform once before I started this project. The impression of Winform to me is simplicity. You just drag and drop every</br>
+thing and it is way easier than the web frontend development. Even though Winform is outdated nowadays, it's still good if you want </br> something fast and simple for your frontend and focusing on your backend. The down side is that it is not very pretty.
+
+### *About algorithm to add bots to fill up the round*
+
+One thing that got me interested in building this project was this small part of algorithm of how to fill up the tournament if there was </br>
+not enough team to compete. For me algorithm is always the tricky, hard yet fun part of programming. 
+
+###
+
+
+
 <br>
 <br>
 
 
 ## Epilogue
-Learned a lot from building this website. Struggled for a while to deploy it online but eventually figured it out after three days. </br>
-Compared to Razor Page and MVC I think I like Blazor the best because it's really fast and straightforward. </br> 
-I also like Azure AD B2C, the downside is that it's not free after a year and it handles 50000 monthly with the free tier azure (more than enough </br>
-for my website :rofl:). MongoDB is nice too as there is no more DBContext stuff all you need is a dependency injection using a mongoDB client.</br >
-I did implement responsive design in this website but somehow the virtualize box is not working properly. Have to fix that later so for now just </br >
-use the desktop version lol
+This is my very first project after taking a break from game development. Since I have been using c# </br>
 
 
 
 
 
-<br/><a href="https://sf6wishlist.azurewebsites.net/" target="_blank">Go to the website</a> <br/>
-*(Please open the website on your computer and give it 15 to 30 seconds to load the website and database as it is being hosted on <br>
-free tier Azure and Atlas. Please sign up to leave your ideas about what you want in Street Fighter VI if you like the series. :blush: <br> 
-The mobile version is still in development.)*
-<br>
-<br>
 
 ## Credit
 Big shout out to **IAmTimCorey** for sharing his knowledge,  <a href= "https://www.youtube.com/user/IAmTimCorey">check out his Youtube channel</a>.
@@ -103,7 +103,6 @@ Things I like about this project:
 Things I dont really like about this project:
   
 
-# Street Fighter VI Wishlist Website
-A wishlist website for the upcoming (2022?:expressionless:) video game Street Fighter VI.
+
 
 
