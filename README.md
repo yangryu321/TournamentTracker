@@ -58,7 +58,7 @@ it.
 First time using SQL with an ORM. Although I learned SQL long time ago back in school, I didn't actually build a project with it.  </br>
 So this is very first time using database plus a ORM. Speaking of Dapper, I knew there is this other ORM called Ef core and it was pretty </br>
 popular, but I still used ORM because the tutorial did so :rofl:. So now after I learned ef core too, I'm thinking maybe I should add another</br>
-implementation of the dataaccess with EF core.
+implementation of the dataaccess with EF core. There is also a second database which is a local textfile database.
 
 ### *About Winform* :
 
@@ -68,7 +68,7 @@ thing and it is way easier than the web frontend development. Even though Winfor
 ### *About algorithm to add bots to fill up the round*
 
 One thing that got me interested in building this project was this small part of algorithm of how to fill up the tournament if there was </br>
-not enough team to compete. For me algorithm is always the tricky, hard yet fun part of programming. 
+not enough teams to compete. For me algorithm is always the tricky, hard yet fun part of programming. 
 
 ###
 
