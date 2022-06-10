@@ -68,15 +68,17 @@ good if you want something fast and simple for your frontend and focusing on you
 
 ### *About algorithm to add bots to fill up the round*
 
-One thing that got me interested in building this project was this small part of algorithm of how to fill up the tournament if there was </br>
-not enough teams to compete. For me algorithm is always the tricky, hard yet fun part of programming. The logic of populating rounds </br>
-is very interesting in tournament. Let's say you dont have enough teams, the idea that comes to your mind natually is to add bots to fill </br>
-up the teams so the number of teams is to the power of 2. For example, you have 7 teams in the tournament. What is gonna happen is that one </br>
-team doesn't have to compete in the first round. This is where we add the bot so what whatever team that plays the bot means the team </br>
-doesn't have to compete in the first round. In this way, you don't have to worry about the round 2 above because it is always gonna be </br>
-to the powerful of 2 after round 1. You need to populate the number of rounds of the tournament, the number of bots you need for the </br>
-first round, a method to generate the first round, another method to generate round 2 and above. Of course, you have to randomize the</br> 
-entered teams before putting them in the first round, I did that using model.EnteredTeams.OrderBy(a => rng.Next()).ToList();
+One thing that got me interested in building this project was this small part of algorithm of how to fill up the</br> 
+tournament if there was not enough teams to compete. For me algorithm is always the tricky, hard yet fun part of</br> 
+programming. The logic of populating rounds is very interesting in tournament. Let's say you dont have enough </br>
+teams, the idea that comes to your mind natually is to add bots to fill up the teams so the number of teams is</br>
+to the power of 2. For example, you have 7 teams in the tournament. What is gonna happen is that one team doesn't </br>
+have to compete in the first round. This is where we add the bot so what whatever team that plays the bot means the team </br>
+doesn't have to compete in the first round. In this way, you don't have to worry about the round 2 above because it is </br>
+always gonna be to the powerful of 2 after round 1. You need to populate the number of rounds of the tournament, the </br>
+number of bots you need for the first round, a method to generate the first round, another method to generate round 2 </br>
+and above. Of course, you have to randomize the entered teams before putting them in the first round, I did that using </br>
+model.EnteredTeams.OrderBy(a => rng.Next()).ToList();
 
 ###
 
