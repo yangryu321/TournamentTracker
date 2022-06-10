@@ -73,12 +73,12 @@ tournament if there was not enough teams to compete. For me algorithm is always 
 programming. The logic of populating rounds is very interesting in tournament. Let's say you dont have enough </br>
 teams, the idea that comes to your mind natually is to add bots to fill up the teams so the number of teams is</br>
 to the power of 2. For example, you have 7 teams in the tournament. What is gonna happen is that one team doesn't </br>
-have to compete in the first round. This is where we add the bot so what whatever team that plays the bot means the team </br>
-doesn't have to compete in the first round. In this way, you don't have to worry about the round 2 above because it is </br>
-always gonna be to the powerful of 2 after round 1. You need to populate the number of rounds of the tournament, the </br>
-number of bots you need for the first round, a method to generate the first round, another method to generate round 2 </br>
-and above. Of course, you have to randomize the entered teams before putting them in the first round, I did that using </br>
-model.EnteredTeams.OrderBy(a => rng.Next()).ToList();
+have to compete in the first round. This is where we add the bot so what whatever team that plays the bot means the </br>
+team doesn't have to compete in the first round. In this way, you don't have to worry about the round 2 above because</br>
+it is always gonna be to the powerful of 2 after round 1. You need to populate the number of rounds of the </br>
+tournament, the number of bots you need for the first round, a method to generate the first round, another </br>
+method to generate round 2 and above. Of course, you have to randomize the entered teams before putting them </br>
+in the first round, I did that using model.EnteredTeams.OrderBy(a => rng.Next()).ToList();
 
 ###
 
