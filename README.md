@@ -87,29 +87,19 @@ entered teams before putting them in the first round, I did that using model.Ent
 
 
 ## Epilogue
-This is my very first project after taking a break from game development. Since I have been using c# </br>
-
-
-
+This is my very first project after taking a break from game development. The whole developing experience was not very smooth at </br>
+the begining because of the long break. I had to research a lot of things for .Net which I didn't have much experience with as well </br>
+as the tools and knowledge I used before. After working on it for a few days, it got better and better and I began to really get</br>
+interested in .Net development. I watched quite a lot of videos and followed a few youtube channels taking about .Net development. </br>
+I also started to read Microsoft documentaries which I found is very helpful. It is this project that really got me started my journey </br>
+in the .Net world until today and I'm still learning more about .Net, mainly asp.net for web dev and other tools too. 
 
 
 
 ## Credit
 Big shout out to **IAmTimCorey** for sharing his knowledge,  <a href= "https://www.youtube.com/user/IAmTimCorey">check out his Youtube channel</a>.
 
-## Things I'm still working on this project:
--Refactoring
-  
-Things I'm planning to add on this project:
--Maybe add another data access for practicing purpose, for example, MongoDB.
-  
-  
-  
-Things I like about this project:
-  
-  
-Things I dont really like about this project:
-  
+
 
 
 
