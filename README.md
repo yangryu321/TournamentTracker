@@ -45,12 +45,12 @@ Tools I used to build the app: </br>
 
 ## What I learned 
 ### *About .NetFramework* : 
-First time using Microsoft .Net and it was pretty fun. It feels very different from the tools I have used before, like Unity. </br>
-At that time I was building this project following a tutorial online, I wasn't very familiar with some concepts in .Net  </br>
-, like dependency injection and etc. So you will see me using a public static variable plus a enum and switch to swap  between the two</br>
-databases. With the fundametals of c#, it is actually not that hard to get started with .Net. The file structure is clear and not  </br>
-overwhelming. It is because of this project that I really started to get interested in .Net development and decided to learn more about  </br>
-it. 
+First time using Microsoft .Net and it was pretty fun. It feels very different from the tools I have used </br>
+before, like Unity. At that time I was building this project following a tutorial online, I wasn't very familiar</br>
+with some concepts in .Net , like dependency injection and etc. So you will see me using a public static variable </br>
+plus a enum and switch to swap  between the two databases. With the fundametals of c#, it is actually not that hard</br>
+to get started with .Net. The file structure is clear and not overwhelming. It is because of this project that I really</br>
+started to get interested in .Net development and decided to learn more about it. 
 
 
 ### *About database and ORM*  : 
@@ -89,11 +89,12 @@ in the first round, I did that using model.EnteredTeams.OrderBy(a => rng.Next())
 
 
 ## Epilogue
-This is my very first project after taking a break from game development. The whole developing experience was not very smooth at </br>
-the begining because of the long break. I had to research a lot of things for .Net which I didn't have much experience with as well </br>
-as the tools and knowledge I used before. After working on it for a few days, it got better and better and I began to really get</br>
-interested in .Net development. I watched quite a lot of videos and followed a few youtube channels taking about .Net development. </br>
-I also started to read Microsoft documentaries which I found is very helpful. It is this project that really got me started my journey </br>
+This is my very first project after taking a break from game development. The whole developing experience</br>
+was not very smooth at the begining because of the long break. I had to research a lot of things for .Net </br>
+which I didn't have much experience with as well as the tools and knowledge I used before. After working on</br>
+it for a few days, it got better and better and I began to really get interested in .Net development. I watched </br>
+quite a lot of videos and followed a few youtube channels taking about .Net development. I also started to read</br>
+Microsoft documentaries which I found is very helpful. It is this project that really got me started my journey </br>
 in the .Net world until today and I'm still learning more about .Net, mainly asp.net for web dev and other tools too. 
 
 
